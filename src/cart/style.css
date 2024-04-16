@@ -1,0 +1,103 @@
+.container{
+
+    /* height: 100vh; */
+ 
+    /* width: 75em; */
+    background-image: url(https://media2.giphy.com/media/3o7btOfPKQb7mCLxBu/giphy.webp?cid=790b7611koy5y5uv2i9uxlix5c8pqslfwddbmphe6pe6ft5n&ep=v1_gifs_search&rid=giphy.webp&ct=g);
+    background-repeat: no-repeat;
+  
+    display: flexbox;background-size: 100%;
+    justify-content: center;
+    padding: 1em 2em;
+
+}
+
+.total{
+    display: flex;
+    justify-content: space-between;
+}
+.view{
+    width: 11em;
+    height: 2em;
+    background-color: orangered;
+    border-radius: 3px;
+    border: none;
+
+}
+.card-items{
+display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
+}
+.image{
+    height: 10em;
+    width: 21em;
+   
+   
+    border-radius: 10px;
+}
+.font{
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    /* margin: 0em 3em; */
+}
+.card{
+    color: white;
+    /* margin: 0em 3em; */
+}
+.card-items:hover{
+   /* margin-top: -1em -1em; */
+
+}
+.image:hover{
+    height: 11em;
+    width: 21.2em;
+    /* margin: -1em 0em; */
+    border-radius: 10px;
+    
+    margin-top: 0.2em;
+    
+}
+.quantity{
+    display: flex;
+    justify-content:flex-start;
+}
+.button1{
+    height: 3em;
+    width: 5em;
+    color:white;
+    background-color:red;
+    font-weight: 300;
+    font:50px;
+    border: none;
+    border-radius: 4px 0px 0px 4px;
+}
+.button2{
+    height: 3em;
+    width: 5em;
+    color:white;
+    background-color:rgb(226, 99, 40);
+    font-weight: 300;
+    font:50px;
+    border: none;
+    border-radius: 0px 4px 4px 0px;
+}
+.button3{
+    height: 3em;
+    width: 12em;
+    color: white;
+    background-color:  orange  ;
+    font-weight: 300;
+    font:50px;
+    border: none;
+    border-radius: 5px;
+}
+.quan{
+    height: 2.3em;
+    width: 3em;
+    color: white;
+    padding: 0.1em 0.8em;
+    font: 30px;
+    background-color:gainsboro;
+
+}
